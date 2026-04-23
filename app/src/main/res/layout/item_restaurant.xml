@@ -9,7 +9,7 @@
     android:layout_marginBottom="10dp"
     app:cardCornerRadius="14dp"
     app:cardElevation="1dp"
-    app:cardBackgroundColor="#1A1A1A">
+    app:cardBackgroundColor="#25543B">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:text="123 Street, City"
             android:textSize="12sp"
-            android:textColor="#666666"
+            android:textColor="#F0A500"
             android:maxLines="1"
             android:ellipsize="end"
             android:drawablePadding="4dp" />
