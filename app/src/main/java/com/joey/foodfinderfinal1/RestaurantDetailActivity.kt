@@ -160,9 +160,9 @@ class RestaurantDetailActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // ── Upgrade 1: Embedded map ───────────────────────────────────────────
         // SupportMapFragment sits in the layout — it calls onMapReady() when ready
-        val mapFragment = supportFragmentManager
-            .findFragmentById(R.id.mapFragment) as SupportMapFragment
-        mapFragment.getMapAsync(this)
+//        val mapFragment = supportFragmentManager
+//            .findFragmentById(R.id.mapFragment) as SupportMapFragment
+//        mapFragment.getMapAsync(this)
 
         // Keep the external Maps button as a fallback / directions button
         findViewById<Button>(R.id.btnOpenMaps).setOnClickListener {
